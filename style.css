@@ -1,0 +1,145 @@
+body {
+    font-family: 'Special Elite', cursive;
+    color: white;
+}
+
+#header {
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#img {
+    border-radius: 5px;
+    width: 50%;
+    height: 15%;
+}
+
+#img2 {
+    border-radius: 5px;
+    width: 50%;
+    height: 10%;
+}
+
+#o1 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 3%;
+    margin-top: 5%;
+    width: 90%;
+    height: 50%;
+    margin-bottom: 2%;
+}
+
+#i1 {
+    height:100%;
+    width: 90%;
+}
+
+#d11 {
+    width: 45%;
+    margin-right: 2%;
+    margin-top: 0%;
+    height: 90%;
+}
+
+#d21 {
+    width: 45%;
+    margin-bottom: -80%;
+    margin-left: 50%;
+    margin-top: -20%;
+    border: 3px solid white;
+    height: 90%;
+}
+
+
+#hr {
+    margin-left: 45%;
+}
+
+#d12 {
+    width: 45%;
+    margin-right: 2%;
+    margin-top: 0%;
+    height: 90%;
+    border: 3px solid white;
+}
+
+#d22 {
+    width: 45%;
+    margin-bottom: -80%;
+    margin-left: 50%;
+    margin-top: -20%;
+    height: 90%;
+}
+
+#d13 {
+    width: 45%;
+    margin-right: 2%;
+    margin-top: 0%;
+    height: 90%;
+}
+
+#d23 {
+    width: 45%;
+    margin-bottom: -80%;
+    margin-left: 50%;
+    margin-top: -20%;
+    border: 3px solid white;
+    height: 90%;
+}
+
+#d14 {
+    width: 45%;
+    margin-right: 2%;
+    margin-top: 0%;
+    height: 90%;
+    border: 3px solid white;
+}
+
+#d24 {
+    width: 45%;
+    margin-bottom: -80%;
+    margin-left: 50%;
+    margin-top: -20%;
+    height: 90%;
+}
+
+#d15 {
+    width: 45%;
+    margin-right: 2%;
+    margin-top: 0%;
+    height: 90%;
+}
+
+#d25 {
+    width: 45%;
+    margin-bottom: -80%;
+    margin-left: 50%;
+    margin-top: -20%;
+    border: 3px solid white;
+    height: 90%;
+}
+
+#o2 {
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+
+body:hover {
+    cursor:grab;
+}
+
+#header:hover {
+    cursor:grab;
+}
+
+#o1:hover {
+    cursor:grab;
+}
+
+#o2:hover {
+    cursor:grab;
+}

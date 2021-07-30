@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Case Study Returns (Part-2)</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"> </script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"> </script>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body background="https://preview.redd.it/qwd83nc4xxf41.jpg?width=640&crop=smart&auto=webp&s=e82767fdf47158e80604f407ce4938e44afc6c25">
+        <center>
+            <div id="header" class="btn btn-primary">
+                <h1 id="heading">Case Study Returns (Part-2)</h1><br>
+                <img id="img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxEHBhIQBxAVFhUWGRUaGBcYGRgYExgXFRUZGBYYGBkYHSgiGiUxHRsaITEkJSkrLy4uFx8zPTMtNyg5OisBCgoKDg0NGxAQGTclHyY1Nzc3NzA1LyszNyswNTc1NzIrLTU3Ly8tLTEtLzUtLTIrNzctLy01Li0vLS0vNTU1Lf/AABEIAKUBMQMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYDBAcBAv/EADsQAAIBAwIDBQUFBwQDAAAAAAABAgMEEQUSBiExE0FRYXEiMoGRoQcUFVKxFiNCc5LB0TU3gqIzU2L/xAAaAQEAAwADAAAAAAAAAAAAAAAAAwQFAQIG/8QAJREBAAIDAAEDAwUAAAAAAAAAAAECAwQREgUhMRRBURMicdHw/9oADAMBAAIRAxEAPwDuIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeNkRxJrkNEsd9TnJ8ox8Wcxv8AiS81Os/3kl4RhlJfLmV8uxXHPPu0tL0zLsx5R7V/Muybj6XQ5dwNUuJ8QwV1Kq44l7zljp5nUO474svnXvOIN3U+myeHl32+xkZKjdSqq5ltc8Zfjjqfdpq9S3n+8eV3p9TFj17HGTxvSYj8u30VvHtZ6tgMVvWVxSUqb5Mym7W0WrFon2lTmOTyQAHZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4z08YHKvtIunV1/Y3yhFYXm+bLhwRo9Oz0anUUU5zW5yfXn0SNTiDgv8AGNTlW7bblJYxnosFm0u0+4afTpZzsSWfHBUx4rRlta0Nra3cdtHHhxz7x8/7+WykkeKom8Jr5lE444iqQuXb2UnFJe211b8F4FNhdVKdTdTnJPxy8noNf0q+XH5zPOvL5d6tLeMR127GSD4htIxoqpBYecM0+CddlqlvKndvM4Y5/miT2o2n3yhtzjmYHq+jacV8M17b7NHUzx5VvE+yO4ZqN05RfRc/mTpHaVp33Fy9rOSRIvTMWTFq1pk+Y/tJsWrbJM1+AAxXdeNrazqVekYyk/SKyy+gfF5e0rGlvvKkYR8ZNRX1NWz1+0vauy1uKcpPotyy/RPqVLh3SP2srSvtezKLk1Tp5agkn5d3djvabeSb1LgqyvKGKVLs5d0qfJr4dH8UBZAYacY2lqk29sI4zJ5eIrrKT6+rKrV47hOrL8Nta1aEes4p7fVcn9cAXAEXoOu0ddtXOyb5PEovlKL7sr+6IrUeNKdC+lR06jUuJxzu7NeyscmspNvn5Y8wLSCD4f4no63OUIKVOpH3qc1iXJ4bXj+vkYdc4sp6Zeq3oUp1q35KazjKzzfPnjnhJgWI1531KneRozqwVSSyoOSU2ufNR6vo/kytw46pKpCncUKsKspxg6cklKO7CUueMr6+Rrat/udafyn+lYC6ggNb4op6XdqhQpzrVms9nTWWl5+HyZ86NxVDUb37vc0qlCtjKhUWNy68ny7ufNAWEw0buncVJRoTjJweJJNNxfhJLo/UzFX4S/1vUv5y/RgWgHk5KEW5PCXV92Csfte7iUpaVZ1q9OLw6kUlF467E+cgLQCJstepX2kTubbLjBSco4xOLhHLi13P/JGw4w+90FLSbOtW5JywklBtZ2557peS8QLQCI0ziGjqGlTuItxjDd2iksSg4rLTXoRi4wk6HbRsK/Yde09nO382zrjvznoBagYbS5jeW0alB5jJJp4a5PpyZmAAAAAAAAABg8YGrX1Gjb1NtetCLXc5JP5Mz05qrTUqbTT6NdGcv49i48Rzz3xhj+kv/DFRT0GhsefYS+Rdz6kY8FMkT3yVsWeb5bUmPhz7jezlba9OU1yn7SfcV87Tqem0tUobLyCa7vFejIGnwJbRq5lKbX5crBpavquOmKK3j3hTzaV5vM1+JRX2b2cvvFSs17ONq83nLwX81qdOnp1piCUIRXwSRXo8c27utjjLbnG7u9cGNubUZcs3n26t0tj16RS1lrB8UpqpBSg8p80/Jn2QrQamrWrvdMq0o9ZwnFesotI2wBTvs51GL0p2lb2atGU04P3sOTbfwbafhheJl13ha1q1at1f3FaCftSxOKgsJLknF+HTxZt67wlQ1a47WMpUqv8A7Kbw3jpld/qsPzI6HAarVF+LXlatFc1FtpfHMpP5YAr+lUqi4Fv6tLftnJKO55fZwkt7+Tafoy78G9muGbf7pjGxZx+f+PPnuySlO0p0rRUqcIqCW3bj2duMYwVWpwKqVWX4VeVqMJdYRba+DUl9cgaWncuN7/8ACenYyzt93tcR8O/du+pufZh2f7Pvs8b98u0/N/8AOfh/cndA0GjoNq4Wabcucpy5yk10z5eRFahwXGrfSraXcVLec/e2e689eSaa+ePIDR1ravtGtPufv7X2mPDEve/45+GD3gpxjxNqCuv/ADObxn3nDfLOPL3foTXD3C9LRasqm6VSrL3qk+cufVLw+r8yE16jYanxG6dxVqULiCX7xYpxly5LMurxjD5erwB8/aFKm9XsEsdp2iz47N8cZ+PT4mXVv9zrT+U/0rEJf6bb09btKGk1JV6zqxlVqOSm0otcm1y5JSeOvLmXm50KFzxDSvZTkpU47VHlta9vm+/+N/ICm6LSu6vFN/8Ah9WlCrvee0i5ScN8sbcd2Nuf+JJXWjXl1rVtPUrq2305boqKcZyipRc0l3/2z5ktrnClPVLxV7erOjWX8cO/uWVy9Mpr4mPSeEYWd+ri/r1LiqvdlPpHzSbfP4gWUq3CX+t6l/OX6MtJWavCTd9Vq215XpOrLdJQaSz8gN3jJy/Ze57Hrsf9P8X/AFyRGhUdQWj0fuFWz7PZHb7FTOMd7Uuvj55JjStElY1JO4uq1dSjt21XuiufN4+hHrhKdrJrR76rQptt9mkpxWeuxt5iBq2ml1bK11Krd1aMnVpyco0s4jOMJ5yn0zklOB6ahwrb7V1i2/VyeWZrDh2lY6XVoUHL96pKdSTzUk5Jpyb+JuaRp60vTadClJtQWE31fPPPAFX0W2p3Vzq9K6e2nKo1J5SwpKWXl9PE+6dPUdBsUqDo3VCEeSeYVtiXJJrk+XqTFHh2lCV12zc43Mszi+i68ljn39fIjo8JVYUOxpahXVDpsxHdt/Kp9y7ugE7o2ox1bTadegmozWcPqmm0180zdNbT7KGnWcKVqsQgsJf5ff4myAAAAAAAAAPGegCn8eaFK+pRr2qzKCxJLq4+K9Cp6JxJX0WLhTxKP5Zdz8vA621kib/hy1vqm6vSWfFcn9DT1t6lcf6WavaqWbWtN/PHPJQ3DvFs9W1SNGpTjFNSeU3nkslvXQh9N4attNulVtYtSWerz1WCZRU2bYrX7ijkLGGt4r++eyj9ctJX2lVaVJ85R5epypaRcSuuyVGe7OMYZ2XB5gpZMUXnqDZ0657RMzxqaRbOz02nTqPLjFJ+puAEkRyFuI5HAAHLkAAAAAAAAI3VdCttXS/EaSm10fNSS8N0WmSQAjdK0G20jP4dRUW+r5yk14bpNskgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/9k=">
+                <h2>VS</h2>  
+                <img id="img2" src="data:image/png;base64,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">              
+            </div>
+            <br>
+            <div id="o1" class="btn btn-primary">
+                <div id="d11">
+                    <img id="i1" src="https://i.pinimg.com/originals/37/07/6c/37076cce35285997d32d4a4f71f9c4a0.gif"><br>
+                </div>
+                <div id="d21">
+                    <h3 id="labels">Google lens gave better results</h3><hr id="hr">
+                    <h3 id="labels">Results by Mobilenet : Mobile</h3><hr id="hr">
+                    <h3 id="labels">Results by Google lens : Mobile Phone</h3><hr id="hr">
+                </div>
+            </div>
+            <div id="o1" class="btn btn-primary">
+                <div id="d12">
+                    <h3 id="labels">Mobilenet gave better results</h3><hr id="hr">
+                    <h3 id="labels">Results by Mobilenet : Water Bottle</h3><hr id="hr">
+                    <h3 id="labels">Results by Google lens : Juice Bottle</h3><hr id="hr">
+                </div>
+                <div id="d22">
+                    <img id="i1" src="https://i.pinimg.com/originals/07/4f/7f/074f7fe522bce5ab670ad920357a19b1.gif"><br>
+                </div>
+            </div>
+            <div id="o1" class="btn btn-primary">
+                <div id="d13">
+                    <img id="i1" src="https://i.pinimg.com/originals/af/6a/c4/af6ac49f529ed39ec9634633aaaf3066.gif"><br>
+                </div>
+                <div id="d23">
+                    <h3 id="labels">Both gave same results</h3><hr id="hr">
+                    <h3 id="labels">Results by Mobilenet : Sunglasses</h3><hr id="hr">
+                    <h3 id="labels">Results by Google lens : Sunglasses</h3><hr id="hr">
+                </div>
+            </div>
+            <div id="o1" class="btn btn-primary">
+                <div id="d14">
+                    <h3 id="labels">Google lens gave better results</h3><hr id="hr">
+                    <h3 id="labels">Results by Mobilenet : Corkscrew</h3><hr id="hr">
+                    <h3 id="labels">Results by Google lens : Scissors</h3><hr id="hr">
+                </div>
+                <div id="d24">
+                    <img id="i1" src="https://i.gifer.com/LeHs.gif"><br>
+                </div>
+            </div>
+            <div id="o1" class="btn btn-primary">
+                <div id="d15">
+                    <img id="i1" src="https://media1.giphy.com/media/1xVbOdgvUAs3TiT0Er/giphy.gif?cid=6c09b952509xou6n069m2k3hayw2k9mysla085tlcir03uun&rid=giphy.gif&ct=s"><br>
+                </div>
+                <div id="d25">
+                    <h3 id="labels">Google lens gave better results</h3><hr id="hr">
+                    <h3 id="labels">Results by Mobilenet : Remote Control</h3><hr id="hr">
+                    <h3 id="labels">Results by Google lens : TV Remote Control</h3><hr id="hr">
+                </div>
+            </div>
+            <div id="o2" class="btn btn-primary">
+                Mobilenet Modal gave 1 accurate answers and Google lens gave 3 accurate answers and 1 result was same of both.
+            </div>
+        </center>
+    </body>
+</html>
